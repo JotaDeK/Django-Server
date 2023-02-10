@@ -77,10 +77,15 @@ WSGI_APPLICATION = 'Dekblog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'MbtzKspH1Ciab1FFfpCk',
+        'HOST': 'containers-us-west-98.railway.app',
+        'PORT': '7536',
     }
 }
+
 
 
 # Password validation
