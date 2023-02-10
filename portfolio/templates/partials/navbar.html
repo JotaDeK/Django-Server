@@ -1,0 +1,129 @@
+{% load static %}
+
+{% comment %} <nav id="nav" class="font">
+  <p id="title">&nbsp;Dekblog</p>
+  <img src="{% static 'images/logo.png' %}" alt="Logo" draggable="False" id="logoimage">
+  
+  <a href="{% url 'home' %}" class="sections">Inicio</a>
+  <a href="#" class="sections">Sobre nosotros</a>
+  <a href="#" class="sections">Contacto</a>
+  <a href="#" class="sections">Publicidad</a>
+  <a href="#" class="sections">Socios</a>
+  <div id="end"></div>
+  
+  <div id="icons">
+  <a href="https://www.facebook.com/Dekblog" target="_blank"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+  <a href=""><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+  <a href=""><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+  <a href=""><i class="fa-brands fa-square-youtube fa-2x"></i></a>
+  </div>
+</nav> {% endcomment %}
+
+{% comment %} <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #42def8;">
+  <a class="navbar-brand" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler10"
+      aria-controls="myNavbarToggler10" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="myNavbarToggler10">
+      <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav sm-icons mr-0">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+      </ul>
+  </div>
+</nav> {% endcomment %}
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+    <!-- icono o nombre -->
+
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-laptop"></i>
+      <span class="text-white">Dekblog</span>
+    </a>
+        
+    <!-- boton del menu -->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <!-- elementos del menu colapsable -->
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Precios</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios
+          </a>
+
+          <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Renta</a></li>
+            <li><a class="dropdown-item" href="#">Equipos</a><li>   
+            <li><a class="dropdown-item" href="#">Networking</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr class="d-md-none text-white-50">
+
+       <!-- enlaces redes sociales -->
+
+      <ul class="navbar-nav  flex-row flex-wrap text-light">
+
+       <li class="nav-item col-6 col-md-auto p-3">
+            <i class="bi bi-twitter"></i>
+            <small class="d-md-none ms-2">Twitter</small>  
+        </li>
+
+        <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-github"></i>
+          <small class="d-md-none ms-2">GitHub</small> 
+        </li>
+
+        <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-whatsapp"></i>
+          <small class="d-md-none ms-2">WhatsApp</small>
+        </li>
+
+        <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-facebook"></i>
+          <small class="d-md-none ms-2">Facebook</small>
+        </li>
+
+      </ul>
+      
+     <!--boton Informacion -->
+
+      <form class="d-flex">
+        <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Informacion</button>
+      </form>
+      
+      
+    </div>
+ 
+    </div>  
+  </nav>
+

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+    
+#title {
+   
+    font-family: 'Odibee Sans', cursive;
+    font-size: 360%;
+    margin: 0;
+    margin-top: 5px;
+    
+
+}
+
+.sections {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    margin-top: 8px;
+    padding-right: 5px;
+    margin-left: 17px;
+
+}
+#logoimage{
+    margin: 10px;
+    width: 4%;
+    height: 4%;
+    min-width: 13px;
+
+
+    
+}
+
+body {
+    background: #18191A;
+
+   color: white;
+  }
